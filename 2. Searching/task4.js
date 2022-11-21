@@ -1,0 +1,12 @@
+let ageTable = document.getElementById("age-table") 
+console.log(ageTable)
+let labelEl = ageTable.getElementsByTagName("label")
+console.log(labelEl)
+let td= ageTable.querySelector("td")
+console.log(td)
+let search = document.body.querySelector("form")
+console.log(search)
+let firstInput= search.querySelector("input")
+console.log(firstInput)
+let lastInput= search.lastElementChild
+console.log(lastInput)
