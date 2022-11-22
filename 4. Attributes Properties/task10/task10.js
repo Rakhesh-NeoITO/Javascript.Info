@@ -9,7 +9,7 @@ for(let i = 0; i < anchor.length; i++){
         if(anchor[i].getAttribute('href').includes('://')){
             anchor[i].style.color="orange"
             if(anchor[i].getAttribute('href').startsWith('http://internal.com')){
-                anchor[i].style.color=""
+                anchor[i].style.color=''
             }
         }
     }
