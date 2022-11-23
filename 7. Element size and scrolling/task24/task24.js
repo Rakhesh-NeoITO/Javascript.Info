@@ -1,0 +1,9 @@
+let field = document.getElementById('field');
+let ball = document.getElementById('ball')
+let clientHeight = Math.floor(field.clientHeight/2)
+let clientWidth = Math.floor(field.clientWidth/2)
+let b = Math.floor(ball.height)
+ball.style.height = b + "px";
+ball.style.width = b + "px";
+ball.style.top = (clientHeight - b/2) + "px";
+ball.style.left = (clientWidth - b/2) + "px";
