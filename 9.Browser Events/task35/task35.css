@@ -1,0 +1,16 @@
+.pane{
+  background-color: lightyellow;
+  width: 75%;
+  margin: auto;
+  padding:5px 10px;
+ position: relative;
+ border: 1px solid lightgreen;
+}
+button{
+  position: absolute;
+  right: 10px;
+  background-color: inherit;
+  border: none;
+  font-size: larger;
+  color: brown;
+}
