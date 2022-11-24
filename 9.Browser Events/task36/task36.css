@@ -1,0 +1,30 @@
+.carousel{
+  display: flex;
+  width: 450px;
+  background-color: white;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 0px 5px;
+  position: relative;
+}
+.imgDiv{
+  overflow: hidden;
+  width: 100%;
+}
+ul{
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  overflow-x: hidden;  
+  
+}
+.arrow{
+ border-radius: 50px;
+ border: 1px solid black;
+  font-size: larger; 
+  background-color: white;
+}
+.arrow:hover {
+  background-color: rgb(179, 178, 178);
+}
