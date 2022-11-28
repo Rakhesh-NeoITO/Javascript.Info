@@ -5,7 +5,7 @@ for (let i = 0; i < 200; i++){
 }
 
 window.addEventListener('scroll', function() {
-  arrow.hidden = (this.scrollY < document.documentElement.clientHeight);
+  arrow.hidden = (scrollY < document.documentElement.clientHeight);
 });
 
 arrow.onclick = function() {
