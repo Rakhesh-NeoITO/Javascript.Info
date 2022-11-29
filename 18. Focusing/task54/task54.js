@@ -24,6 +24,7 @@ for(let i = 0; i < tdArray.length; i++){
     input.value = tdValue;
     
     tdArray[i].replaceWith(input);
+    input.focus();
 
     input.insertAdjacentElement('afterend', enterButton);
     enterButton.insertAdjacentElement('afterend', closeButton);
@@ -65,13 +66,6 @@ for(let i = 0; i < tdArray.length; i++){
       enterButton.remove();
       closeButton.remove();
       td.addEventListener('click', tableShow);
-    //  document.body.append(td)
-     //console.log(value)
-
     }
   }  
-
- 
-
 }
-
