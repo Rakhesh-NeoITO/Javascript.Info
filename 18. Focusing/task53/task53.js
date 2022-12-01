@@ -14,9 +14,9 @@ view.addEventListener('click', function (){
     input.replaceWith(view);
   }
   input.addEventListener('keydown', function (event) {
-      if(event.code == 'Enter'){
-        view.innerHTML = input.value;
-        input.replaceWith(view);
+      if(event.code == 'ArrowUp'){
+       console.log(event.code)
+        
       }
   })
 
