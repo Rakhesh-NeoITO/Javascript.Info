@@ -9,4 +9,5 @@ console.log(styles.shift());
 console.log(styles);
 
 styles.unshift('Rap', 'Reggae');
+
 console.log(styles);
