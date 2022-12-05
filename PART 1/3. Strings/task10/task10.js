@@ -1,6 +1,6 @@
 function truncate(str, maxlength) {
   let length = str.length;
-  console.log(maxlength)
+ 
   if(length > maxlength){
     return(str.slice(0,maxlength-1) + '...' )
   }
