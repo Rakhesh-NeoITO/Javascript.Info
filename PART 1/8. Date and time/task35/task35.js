@@ -1,5 +1,5 @@
-let date = new Date(2012, 0, 3); 
-
+let date = new Date(2022, 11, 1); 
+console.log(date)
 function getWeekDay(date) {
   let days = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'];
 
