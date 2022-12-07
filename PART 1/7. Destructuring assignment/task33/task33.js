@@ -16,7 +16,7 @@ function topSalary(salaries) {
     }
   }
 
-  return maxName + ':' + maxSalary;
+  return maxName + ':'+ maxSalary;
 }
 
 console.log( topSalary(salaries) );
