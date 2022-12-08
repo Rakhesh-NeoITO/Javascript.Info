@@ -13,4 +13,4 @@ function inBetween(a, b) {
 }
 
 console.log( arr.filter(inArray([1, 2, 8])) );
-console.log(arr.filter(inBetween(4,6)))
+console.log(arr.filter(inBetween(4,6)));
